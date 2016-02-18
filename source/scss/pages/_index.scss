@@ -276,7 +276,9 @@ body {
   width: 100%;
   z-index: 10;
   display: none;
-  background-image: url("images/hover_caption_bg.png");
+  background-color: #999;
+  top: 0;
+  background-color: rgba(150, 150, 150, .5);
 }
 
 .window {
@@ -370,7 +372,7 @@ header {
 }
 
 .logo {
-  background: url("images/logo.png") no-repeat scroll 0 0 transparent;
+  background: url("/images/logo.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 89px;
   text-indent: -9999em;
@@ -400,7 +402,7 @@ nav {
 /* content styles */
 
 #about-bg {
-  background: url("images/green-bg.jpg") no-repeat scroll center 0 #97b253;
+  background: url("/images/green-bg.jpg") no-repeat scroll center 0 #97b253;
   height: 464px;
   padding-bottom: 0;
   h2 {
@@ -428,7 +430,7 @@ nav {
 }
 
 #nark {
-  background: url("images/brown-bg.jpg") no-repeat scroll center 0 #6e4f20;
+  background: url("/images/brown-bg.jpg") no-repeat scroll center 0 #6e4f20;
   min-height: 833px;
   padding-bottom: 0;
   padding-bottom: 10px;
@@ -505,12 +507,12 @@ nav {
     height: 22px;
   }
   &:before {
-    background: url("images/lquo.jpg") no-repeat scroll center 0 transparent;
+    background: url("/images/lquo.jpg") no-repeat scroll center 0 transparent;
     top: 31px;
     left: 25px;
   }
   &:after {
-    background: url("images/rquo.jpg") no-repeat scroll center 0 transparent;
+    background: url("/images/rquo.jpg") no-repeat scroll center 0 transparent;
     bottom: 22px;
     right: 185px;
   }
@@ -594,7 +596,7 @@ nav {
 }
 
 #head-bg {
-  background: url("images/head-bg.jpg") no-repeat scroll center 0 #eff5f6;
+  background: url("/images/head-bg.jpg") no-repeat scroll center 0 #eff5f6;
   height: 450px;
   p, a {
     color: #fff;
@@ -676,7 +678,7 @@ a.btn {
 }
 
 #priem {
-  background: #f2f2f2;
+  background: #fff;
   .elem {
     &.ft {
       margin-left: 0;
@@ -724,7 +726,7 @@ a.btn {
     margin-left: 24px;
     text-align: center;
     &:before {
-      background: url("images/check.png") no-repeat center 0 transparent;
+      background: url("/images/check.png") no-repeat center 0 transparent;
       width: 100%;
       height: 47px;
       margin-bottom: 15px;
@@ -828,7 +830,7 @@ section.padding {
   padding: 40px 0;
 }
 
-#approach {
+#approach, #approach2 {
   background: #e1e1e0;
   .elem {
     display: inline-block;
@@ -859,6 +861,8 @@ section.padding {
     }
   }
 }
+
+
 
 #about {
   background: #f2f2f2;
@@ -1092,7 +1096,7 @@ section.padding {
     }
     .cloud:after {
       position: absolute;
-      background: url("images/opinion/arr.png") no-repeat scroll 0 0 transparent;
+      background: url("/images/opinion/arr.png") no-repeat scroll 0 0 transparent;
       width: 29px;
       height: 101px;
       content: '';
@@ -1123,7 +1127,7 @@ section.padding {
 }
 
 #faq {
-  background: url("images/qwest-bg.jpg") no-repeat scroll center 0 #e7e9e8;
+  background: url("/images/qwest-bg.jpg") no-repeat scroll center 0 #e7e9e8;
   .wrap {
     width: 580px;
     padding: 30px 0;
@@ -1435,6 +1439,7 @@ footer .col {
 @media screen and (min-width: 860px) {
   .menu {
     width: 100%;
+    min-height: 44px;
     padding: 10px 18px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
     border-radius: 3px;

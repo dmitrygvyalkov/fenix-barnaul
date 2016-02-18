@@ -1,0 +1,78 @@
+.contact-block01 {
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.contact-block01_wrp {
+	max-width: 440px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+.contact-block01_form {
+	display: block;
+	border: 6px solid #009dcd;
+	border-radius: 10px;
+	padding: 40px 15px;
+}
+
+.contact-block01_title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #006da0;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	padding: 0 0 20px;
+}
+
+
+.contact-block01_input-line {
+	font-size: 0;
+	padding: 0 0 20px;
+}
+
+.contact-block01_input {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	border: 1px solid #bcbcbc;
+	margin: 0;
+	border-radius: 4px;
+	padding: 15px 15px 15px 35px;
+}
+
+.contact-block01_input--login {
+	margin: 0 2% 0 0;
+	background-image: url(/images/icon/login.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.contact-block01_input--phone {
+	background-image: url(/images/icon/phone.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.contact-block01_button {
+	width: 100%;
+	background: #f00;
+	background: linear-gradient(to bottom, rgba(255,0,0,1) 0%, rgba(200,0,10,1) 100%);
+	text-shadow: 1px 2px 3px #999;
+	box-shadow: 0px 4px 4px -3px rgba(0,0,0,0.75);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 15px 0;
+	transition: 0;
+
+	&:hover {
+		background: #d02634;
+		background: linear-gradient(to bottom, rgba(200,0,10,1) 0%, rgba(255,0,0,1) 100%);
+		box-shadow: none;
+	}
+}
