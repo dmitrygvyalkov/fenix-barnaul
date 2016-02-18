@@ -2,10 +2,356 @@ doctype html
 html
   include modules/_head
     title Test
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext')
 
-  body
-    <!--[if lt IE 9]>
-    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите его</a></p>
-    <![endif]-->
-
-    include modules/_scripts
+  body#page1
+    include modules/topbanner
+    #all-content
+    include modules/header
+    #content
+      #middle
+        #center
+          .post
+            // <h1 class="page_title">Реабилитационный центр для лечения наркомании и алкогольной зависимости</h1>
+            .content-text
+              section#head-bg.w100
+                .middle
+                  p.title-1
+                    span Избавление от зависимостей на 100%
+                    br
+                    span за 6 месяцев в реабилитационном
+                    br
+                    span центре в сибирской тайге
+                  p.title-2
+                    span 9
+                    |  лет работы. 
+                    span 314
+                    |  прошли реабилитации.
+                    br
+                    span 284
+                    |  человек больше не употребляют 
+                    br
+                    | запрещенных веществ и алкоголь
+                  .head-link
+                    a(href='http://fenix-centr.ru/lechenie-narkomanii/') Лечение наркомании
+                    a(href='http://fenix-centr.ru/lechenie-alkogolizma/') Лечение алкоголизма
+                // middle
+              // head-bg
+              section#approach.padding.w100
+                .middle
+                  h2 Наш подход к реабилитации
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/egg/1.png', alt='')
+                    p
+                      | Пребывание в центре
+                      br
+                      | от 6 до 12 месяцев
+                  // elem
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/egg/2.png', alt='')
+                    p
+                      | В основе реабилитация
+                      br
+                      | Миннесотская модель
+                      br
+                      | с концепцией «12 шагов»
+                  // elem
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/egg/3.png', alt='')
+                    p
+                      | Работа с
+                      br
+                      | немотивированнами
+                      br
+                      | пациентами
+                  // elem
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/egg/4.png', alt='')
+                    p
+                      | Встречи с родственниками
+                      br
+                      | 1 раз в квартал.
+                      br
+                      | Созвоны по Skype.
+                  // elem
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/egg/5.png', alt='')
+                    p
+                      | Гарантия от срыва
+                      br
+                      span 1 год
+                  // elem
+                  .clear
+                  .text
+                    h2 РЕАЛЬНАЯ ИСТОРИЯ РЕАБИЛИТАЦИИ В ФЕНИКС-ЦЕНТРЕ
+                    iframe(width='910', height='400', src='https://www.youtube.com/embed/FKBTTP_6_lU', frameborder='0', allowfullscreen='')
+                    h1 РЕАБИЛИТАЦИОННЫЙ ЦЕНТР ДЛЯ ЛЕЧЕНИЯ НАРКОМАНИИ И АЛКОГОЛЬНОЙ ЗАВИСИМОСТИ
+                    p
+                      | Избавление от недуга наркомании и алкогольной зависимости возможно! Вернуться к жизни, полной радости и счастья – не мечта, а задача, которую по силам решить каждому.
+                    p
+                      | Для помощи в решении такой важной задачи 8 лет назад был открыт реабилитационный центр для наркозависимых Феникс. За это время мы помогли более чем 250 пациентам полностью отказаться от употребления наркотиков и алкоголя, жить полноценной социальной и личной жизнью.
+                    h2 Как обратиться к нам впервые?
+                    p
+                      | Пожалуй, самая большая проблема людей, страдающих от наркотической или алкогольной зависимости, кроется в непринятии этой самой проблемы. В этом случае, выявить ее, помочь осознать, сможет только опытный специалист. Общий стаж наших врачей и психологов в реабилитации наркозависимости самых разных видов – более 86 лет. Мы предлагаем простую и эффективную программу первой психологической помощи, которая поможет осознать наличие проблемы и приступить к их решению.
+                    h2 Наша методика
+                    p
+                      | Наркологический реабилитационный центр Феникс работает по методике, более 60 лет доказывающей свою эффективность на практике – методе «12 шагов». Курс психологической помощи, в сочетании с последовательным, постепенным вводом пациента в социальные группы приводит к гармоничной, осознанной социализации. Уже после 3 месяцев реабилитации любой пациент чувствует повышенную социальную ответственность, самостоятельно ищет дальнейших перемен.
+                    p
+                      | Реабилитационный центр для наркоманов Феникс предлагает методику, включающую:
+                      br
+                      | 1. Диагностику заболевания и мотивирование пациента на выздоровление.
+                      br
+                      | 2. Групповые и индивидуальные занятия.
+                      br
+                      | 3. Полный комплекс работ по личностному росту пациента, формированию правильной мотивации.
+                      br
+                      | 4. Всестороннюю помощь и поддержку. 
+                      br
+                    p
+                      | Все это, в сочетании с вниманием и заботой персонала, помогает пациенту самому перестроиться на выздоровление и избавление от наркотической или алкогольной зависимости в течение срока реабилитации. Итогом нашей работы становится полная социальная адаптация к новой «трезвой» жизни и возврат к полноценному социальному взаимодействию.
+                      | Мы готовы оказать вам всю необходимую консультативную помощь прямо сейчас. Просто позвоните нам и помогите себе или своим близким встать на путь свободы от наркотиков или алкоголя. Путь счастливой жизни!
+                // middle
+              // approach
+              section#about.padding
+                .middle.clrfix
+                  h2 О реабилитационном центре
+                  .left
+                    .elem
+                      span 1.
+                      p
+                        | Находится в Томской области в живописном месте
+                        br
+                        | среди сибирской тайги. В 60 км от Томска.
+                    // elem
+                    .elem
+                      span 2.
+                      p
+                        | Комфортабельные и теплые корпуса.
+                        br
+                        | Проживание в 30-местных комнатах.
+                    // elem
+                    .elem
+                      span 3.
+                      p
+                        | Постоянный контроль со стороны
+                        br
+                        | сотрудников центра
+                    // elem
+                    .elem
+                      span 4.
+                      p
+                        | Трехдневное питание. Сбалансированный рацион
+                        br
+                        | для ускорения процесса реаблитации
+                    // elem
+                    a.podrobnnee.btn(href='http://fenix-centr.ru/o-centre/') Узнать подробнее о центре
+                  // left
+                  #slider_about_wrapper
+                    #slideleft.sliderbutton.slideleft(onclick='slideshow.move(-1)')
+                    #slider_about(style='overflow: hidden;')
+                      ul(style='left: -480px; width: 2880px;')
+                        li
+                          img.colorbox-4(src='http://fenix-centr.ru/wp-content/uploads/2015/04/ROM-42-Копировать.jpg', alt='')
+                        li
+                          img.colorbox-4(src='http://fenix-centr.ru/wp-content/uploads/2015/04/ROM-3-Копировать.jpg', alt='')
+                        li
+                          img.colorbox-4(src='http://fenix-centr.ru/wp-content/uploads/2015/04/ROM-23-Копировать.jpg', alt='')
+                    #slideright.sliderbutton.slideright(onclick='slideshow.move(1)')
+                  // slider_about_wrapper
+                // middle
+              // abount
+              section#news.padding
+                .middle.clrfix
+                  h2 Новости
+                  .bbl
+                    .thum1
+                      a(href='http://fenix-centr.ru/akciya-po-zakrashivaniyu-reklami-narkotikov/')
+                        img.attachment-125x125.colorbox-473.wp-post-image(0='', width='125', height='125', src='http://fenix-centr.ru/wp-content/uploads/2015/12/IMG_2015-12-25-154632-150x150.jpg', alt='IMG_2015-12-25 15:46:32')
+                    // .thum
+                    .zag1
+                      a(href='http://fenix-centr.ru/akciya-po-zakrashivaniyu-reklami-narkotikov/')
+                        h3 Мы провели акцию по закрашиванию надписей распространяющих наркотики
+                    // .zag
+                    p.rub_dat  25 Декабрь 2015 16:02
+                // middle
+              // abount
+              section#opinion.padding
+                .middle
+                  h2 Истории пациентов
+                  p.pre-title Сумарный опыт нашей команды в реабилитации зависимостей – 86 лет
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/opinion/1.png', alt='')
+                    .cloud
+                      p.name Вадим, 32 года
+                      p.theme Во всем виноват только я сам…
+                      .text
+                        | Жил всю жизнь безбедно, работа, дом, молодая жена, грех жаловаться. Через полгода повышения по карьерной лестнице меня захлестнула череда торжеств, гулянок и небольших посиделок с друзьями. Я за собой никогда прежде не замечал склонности к употреблению алкоголя, однако мой режим быстро перешел в обыденность. Свободный график работы, жена, которая не могла понять, что происходит, друзья, подначивающие поехать и расслабиться, сделали свое дело, и я стал алкоголиком. Более того, мой счастливый брак начал рассыпаться, любящая жена расценивала мой пьяный вид как предательство и мою личную слабость. Последней каплей стала потеря работы и авария через неделю после этого.
+                      a(href='http://fenix-centr.ru/vadim-32-goda/') Читать отзыв полностью
+                  // elem
+                  .elem
+                    img.colorbox-4(src='http://fenix-centr.ru/wp-content/themes/wp-makers/images/opinion/2.png', alt='')
+                    .cloud
+                      p.name Илья, 28 лет
+                      p.theme Я не дал своим перспективам утонуть на дне бутылки…
+                      .text
+                        | Меня зовут Илья, и я стал алкоголиком в 24 года. Сам не с бедной семьи, родители порядочные, всю жизнь проработали и вкладывали любовь и свои силы в нас с братом. После поступления в институт я резко оказался в незнакомой для меня стихии. Впервые попробовал легкие наркотики, начал общаться с компанией одногодок, которая только числилась в институте, а сама занималась круглосуточными запоями и гулянками. Впервые я испытал отчаяние от невзаимной любви и все чаще начал забываться с бутылкой.
+                      a(href='/ilja-28-let') Читать отзыв полностью
+                  // elem
+                  .elem
+                    img.colorbox-4(style='border-radius: 50%;', src='http://fenix-centr.ru/wp-content/uploads/2015/04/Untitled-4.jpg', alt='')
+                    .cloud
+                      p.name Марина, 36 лет
+                      p.theme Бабочка в паутине
+                      .text
+                        | ЯНикогда не могла бы подумать, что я стану колоться и употреблять наркотики. Я росла в обеспеченной семье, никогда ни в чем не нуждалась. Однако тусовки, клубы, прибыльный бизнес все склоняло к разгульному образу жизни. После неудачного брака, который начался сразу после института и продлился всего 5 лет, я почувствовала свободу, захотела жить в своей удовольствие, наслаждаться каждым мигом здесь и сейчас.
+                      a(href='/marina-36-let') Читать отзыв полностью
+                  // elem
+                  a.more-opinion.btn Читать все отзывы
+                // middle
+              // opinion
+              section#faq.padding
+                .middle
+                  h2 Остались вопросы?
+                  .wrap
+                    p.call-text Звоните по телефону 8 800 770 5000
+                    p.free Бесплатная консультация
+                    p.anonim 100% анонимно
+                    p.or_mail Закажите звонок нашего специалиста
+                    a.btn(onclick='order(1)') Спасти близкого
+                  // wrap
+                // middle
+              // faq
+    // Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0
+    script(type='text/javascript').
+      jQuery(document).ready(function($){
+      $("a[rel*=lightbox]").colorbox({initialWidth:"30%",initialHeight:"30%",maxWidth:"90%",maxHeight:"90%",opacity:0.8});
+      });
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js?ver=1.5.9')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-includes/js/wp-embed.min.js?ver=4.4.2')
+    footer.w100
+      .middle.clrfix
+        #info
+          p © 2014 Реабилитационный центр «Феникс»
+          p
+            | Тел: 8 800 770 5000
+            br
+            // +7-923-403-3033<br>
+            | +7-923-407-1410
+          p
+            | Офис: г. Томск, ул. Трифонова 20, офис 4
+            br
+            | Центр: Томская обл., Первомайский р-он, 
+            br
+            | д. Успенка
+        // info
+        .col
+          a(href='/rodstvennikam/') Родственникам
+          a(href='/Vopros-otvet/') Вопрос-ответ
+          a(href='/kontakty/') Контакты
+        // col
+        .col
+          a(href='http://fenix-centr.ru/lechenie-narkomanii-v-tomske') Лечение наркомании
+          a(href='http://fenix-centr.ru/lechenie-alkogolizma') Лечение алкоголизма
+          a(href='http://fenix-centr.ru/istorii-pacientov') Истории пациентов
+        // col
+        .col
+          a(href='http://fenix-centr.ru/') Главная
+          a(href='http://fenix-centr.ru/o-centre/') О центре
+          a(href='/o-personale/') О персонале
+          a(href='/category/stati/') Статьи
+        // col
+      // middle
+    // Благодарность после заявки
+    #thx-window.window
+      .window-wrap
+        img.btnClose(src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/images/close.png')
+        | 				Спасибо за заказ, наш менеджер вам перезвонит в ближайшее время
+    // Благодарность после заявки
+    // Форма заявки
+    #Order.window
+      img.btnClose(src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/images/close.png')
+      form#OrderForm.form(method='post')
+        p.form-name.roman
+        input(type='text', name='name', placeholder='Имя', required='')
+        input.phone-input(type='text', name='phone', placeholder='+7 (___) ___-__-__', required='')
+        input#type(name='type', type='hidden')
+        button.brown-btn(type='submit') ЗАКАЗАТЬ
+    // Форма заявки
+    // Форма обратного звонка
+    #Call.window
+      img.btnClose(src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/images/close.png')
+      form#CallForm.form(method='post')
+        p.form-name.roman ЗАКАЗ ОБРАТНОГО ЗВОНКА
+        input(type='text', name='name', placeholder='Имя', required='')
+        input.phone-input(type='text', name='phone', placeholder='+7 (___) ___-__-__', required='')
+        input(type='text', name='comment', placeholder='Комментарий')
+        button.btn(type='submit') ЗАКАЗАТЬ 
+    // Форма обратного звонка
+    // js files
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/html5.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/jquery-1.7.2.min.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/jquery.validate.min.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/jquery.fancybox.pack.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/jquery.liquidcarousel.pack.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/jquery.maskedinput.min.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/tinyslide.js')
+    script(type='text/javascript', src='http://fenix-centr.ru/wp-content/themes/wp-fenixcentr/js/myscripts.js')
+    // js files
+    // Yandex.Metrika counter
+    script(type='text/javascript').
+      (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+      try {
+      w.yaCounter30902521 = new Ya.Metrika({id:30902521,
+      webvisor:true,
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true});
+      } catch(e) { }
+      });
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+      if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+      })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src='//mc.yandex.ru/watch/30902521', style='position:absolute; left:-9999px;', alt='')
+    // /Yandex.Metrika counter
+    script.
+      /*jQuery('.ssylka_my').attr({'style':'display:none'});*/
+      jQuery('input[name="answe1r"]').click(function() {
+      var a=jQuery('input[name="answer"]').val();
+      if(a=="12345"){
+      jQuery('.ssylka_my').attr({'style':'display:block;width: 430px; margin: 0 auto; margin-top: 30px;'});
+      }
+      else{
+      alert("Неверный пароль. Запросите пароль у администратора реабилитационного центра");
+      jQuery('.ssylka_my').attr({'style':'display:none'});
+      }
+      });
+    //
+      <div style="display: none;">
+      <div style='position:relative; width: 88px; height: 31px;'>
+      <div style='position:absolute; z-index:10;'>
+      <div id='links_darii' style='display:none; position:absolute; left:88px; width:560px; height: 31px; z-index:9999; padding-left:23px; padding-top:10px; background:url(http://www.darii.ru/images/info_ground.png) right top no-repeat;'><p style="font-size:12px !important; color:#666666 !important;">Сервис <a style="color:#3399ff !important; font-size:12px !important;" href='http://www.darii.ru' target="_blank">украшения сайтов "Дари!</a> разработан компанией Exiterra - создание и продвижение сайтов.</p></div>
+      <a id='informer_darii' href = 'http://www.darii.ru' target="_blank"></a>
+      </div>
+      </div>
+      <script type='text/javascript' defer='defer' src='http://www.darii.ru/user_scripts/1450775503_info_code.js'></script>
+      <script type='text/javascript' defer='defer' src='http://www.darii.ru/js/scripts/user_scripts.js'></script>
+      <script type='text/javascript' defer='defer' src='http://www.darii.ru/user_scripts/1450775503.js'></script>
+      </div>
+    script(type='text/javascript').
+      jQuery(document).ready(function() {
+      jQuery('.toggle-nav').click(function(e) {
+      jQuery(this).toggleClass('active');
+      jQuery('.menu ul').toggleClass('active');
+      e.preventDefault();
+      });
+      });

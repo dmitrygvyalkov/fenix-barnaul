@@ -1,6 +1,6 @@
 {
-  "name": "my-builder",
-  "version": "0.0.3",
+  "name": "fenix-barnaul",
+  "version": "0.0.1",
   "scripts": {
     "postinstall": "bower install"
   },
